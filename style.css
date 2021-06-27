@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  background-color: crimson;
+  font-family: "Slabo 27px", serif;
+}
+h2 {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.btn {
+  background-color: #ff9999;
+  color: #1a0013;
+  padding: 2rem 2rem;
+  margin: 1rem;
+  transition: all 0.2s ease-in-out;
+  border: none;
+  font-size: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  width: 11rem;
+}
+.btn:hover {
+  background-color: #4d0026;
+  color: white;
+}
+.btn:focus {
+  outline: none;
+}
+.btn:active {
+  transform: scale(0.4);
+  transform: translateX(5px);
+  box-shadow: 0 0 3px 7px #ff99bb;
+}
